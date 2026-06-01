@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assigments 5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Task Manager</h1>
+
+      <form id="todo-form">
+        <div class="input-group">
+          <input
+            type="text"
+            id="todo-input"
+            placeholder="Apa yang ingin dikerjakan hari ini? (Min. 3 karakter)"
+          />
+          <button type="submit" id="submit-btn">Tambah</button>
+        </div>
+        <p id="error-message" class="error-text hidden"></p>
+      </form>
+
+      <div id="status-notification" class="hidden"></div>
+
+      <ul id="todo-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
